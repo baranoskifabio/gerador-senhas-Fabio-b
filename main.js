@@ -12,7 +12,7 @@ if (tamanhoSenha > 1) {
     tamnhoSenha = tamnhoSenha - 1
 }
 numeroSenha.textContent = tamnhoSenha
-gerarSenha()
+gerarSenha();
 }
 
 
@@ -21,7 +21,12 @@ if (tamanhoSenha < 20) {
     tamnhoSenha = tamnhoSenha + 1
 }
 numeroSenha.textContent = tamnhoSenha
-gerarSenha()
+gerarSenha();
 }
 
-const campoSenha = document.
+const campoSenha = document. querySelector('#campo-senha');
+
+const letrasMaisculas = 'ABCDEFGHIJKLNIEJRE';
+const letrasMinusculas = 'abcdehksfhjddfhkdfk';
+const numeros = '0123456789'
+const simbolos = '%#$&&¨%*#@#%%#$'
