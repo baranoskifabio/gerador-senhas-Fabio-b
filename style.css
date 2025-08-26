@@ -1,151 +1,151 @@
 :root {
---branco: branco;
---cor-de-fundo: #00162E;
---fundo-senha: #00244D;
---fundo-texto: #001E40;
---borda: #0075FF;
---roboto: 'Roboto', sem serifa;
---roboto-mono: 'Roboto Mono', monoespaçado;
+    --branco: branco;
+    --cor-de-fundo: #00162E;
+    --fundo-senha: #00244D;
+    --fundo-texto: #001E40;
+    --borda: #0075FF;
+    --roboto: 'Roboto', sem serifa;
+    --roboto-mono: 'Roboto Mono', monoespaçado;
 }
 
 * {
-peso da fonte: 400;
+    peso da fonte: 400;
 }
 
 corpo {
-cor: var(--branco);
-cor de fundo: var(--cor-de-fundo);
-família de fontes: var(--roboto);
+    cor: var(--branco);
+    cor de fundo: var(--cor-de-fundo);
+    família de fontes: var(--roboto);
 }
 
 .titulo-principal {
-font-family: var(--roboto-mono);
-tamanho da fonte: 32px;
+    font-family: var(--roboto-mono);
+    tamanho da fonte: 32px;
 }
 
 .titulo-secundario {
-tamanho da fonte: 24px;
+    tamanho da fonte: 24px;
 }
 
 .conteudo-titulo {
-text-align: center;
-margem superior: 80px;
+    text-align: center;
+    margem superior: 80px;
 }
 
 .conteudo-senha {
-margin-top: 80px;
-background: var(--fundo-senha);
-preenchimento: 24px;
-borda inferior: var sólido de 6px (--borda);
+    margin-top: 80px;
+    background: var(--fundo-senha);
+    preenchimento: 24px;
+    borda inferior: var sólido de 6px (--borda);
 }
 
 #campo-senha {
-cor de fundo: var(--fundo-senha);
-fronteira: nenhuma;
-cor: var(--branco);
-família de fontes: var(--roboto-mono);
-tamanho da fonte: 40px;
-largura: 70%;
+    cor de fundo: var(--fundo-senha);
+    fronteira: nenhuma;
+    cor: var(--branco);
+    família de fontes: var(--roboto-mono);
+    tamanho da fonte: 40px;
+    largura: 70%;
 }
 
 #campo-senha:focus {
-esboço: nenhum;
+    esboço: nenhum;
 }
 
 .conteudo {
-largura máxima: 1200px;
-margem: 0 automático;
+    largura máxima: 1200px;
+    margem: 0 automático;
 }
 
 .parametro {
-cor de fundo: var(--fundo-texto);
-borda: 2px var sólido (--borda);
-margem superior: 32px;
-preenchimento: 24px;
+    cor de fundo: var(--fundo-texto);
+    borda: 2px var sólido (--borda);
+    margem superior: 32px;
+    preenchimento: 24px;
 }
 
 .parametro-titulo {
-font-family: var(--roboto-mono);
-tamanho da fonte: 28px;
+    font-family: var(--roboto-mono);
+    tamanho da fonte: 28px;
 }
 
 .parametro-senha__titulo {
-font-size:24px;
+    font-size: 24px;
 }
 
 .parametro-coluna__senha {
-display: flex;
-direção flexível: coluna;
-justificar-conteúdo: centro;
+    display: flex;
+    direção flexível: coluna;
+    justificar-conteúdo: centro;
 }
 
 .parametro-senha {
-largura: 50%;
-margem: 0 automático;
+    largura: 50%;
+    margem: 0 automático;
 }
 
-.parametro-senha-botoes{
-display: flex;
-justificar-conteúdo: centro;
+.parametro-senha-botoes {
+    display: flex;
+    justificar-conteúdo: centro;
 }
 
-.parametro-senha__texto{
-preenchimento: 24px;
-borda superior: 2px var sólido (--borda);
-borda inferior: 2px var sólido (--borda);
-margem: 0;
-tamanho da fonte: 24px;
+.parametro-senha__texto {
+    preenchimento: 24px;
+    borda superior: 2px var sólido (--borda);
+    borda inferior: 2px var sólido (--borda);
+    margem: 0;
+    tamanho da fonte: 24px;
 }
 
-.parametro-senha__botao{
-background-color: var(--fundo-texto);
-color: var(--branco);
-border: 2px solid var(--borda);
-padding: 24px;
-font-size: 24px;
-cursor: pointer;
+.parametro-senha__botao {
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
 }
 
-label{
-font-size: 20px;
+label {
+    font-size: 20px;
 }
 
-.checkbox{
-width: 20px;
-height: 20px;
-cursor: pointer;
+.checkbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 
-.barra{
-background-color: var(--fundo-senha);
-height: 30px;
-width: 100%;
+.barra {
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
 }
 
-.parametro-senha-textos{
-display: flex;
-justify-content: space-between;
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
 }
 
-.fraca{
-width: 25%;
-background-color: #e71b32;
+.fraca {
+    width: 25%;
+    background-color: #e71b32;
 }
 
-.media{
-width: 50%;
-background-color: #faf408;
+.media {
+    width: 50%;
+    background-color: #faf408;
 }
 
-.forte{
-width: 100%;
-background-color: #00ff85;
+.forte {
+    width: 100%;
+    background-color: #00ff85;
 }
 
-.forca{
-altura: 30px;
-posição: relativa;
-inferior: 30px;
+.forca {
+    altura: 30px;
+    posição: relativa;
+    inferior: 30px;
 }
 
 
@@ -154,7 +154,7 @@ inferior: 30px;
 
 
 @media screen and (min-width: 768px) {
-.parametro-coluna__senha {
-flex-direction: row;
-}
+    .parametro-coluna__senha {
+        flex-direction: row;
+    }
 }
