@@ -52,6 +52,19 @@ if (checkbox[2].checked){
 if (checkbox[3].checked){
         alfabeto = alfabeto + simbolos;
  }
+
+let senha = '';
+for (let i = 0; i < tamanhoSenha; i++) {
+    let numeroAleatorio = 
 }
+
+
+
+
+
+}
+
+
+
 
 
