@@ -40,7 +40,7 @@ geraSenha();
 function geraSenha() {
     let alfabeto = '';
     if (checkbox[0].checked)
-        
+        alfabeto = alfabeto + letrasMaisculas;
 }
 
 
