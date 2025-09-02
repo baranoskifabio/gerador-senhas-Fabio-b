@@ -55,11 +55,16 @@ if (checkbox[3].checked){
 
 let senha = '';
 for (let i = 0; i < tamanhoSenha; i++) {
-    let numeroAleatorio = Math.ramdom()
+    let numeroAleatorio = Math.ramdom() * alfabeto.legth;
+    numeroAleatorio = Math.floor(numeroAleatorio);
+    senha = senha + alfabeto[numeroAleatorio];
 }
 
-
-
+function classificaSenha(){
+    forcaSenha.classList.remove('fraca','media','forte');
+    if(tamanhoSenha > 11){
+forcaSenha.classList.add('forte');
+ }
 
 
 }
