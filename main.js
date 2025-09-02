@@ -8,10 +8,11 @@ const simbolos = '%#$&&¨%*#@#%%#$';
 const botoes = document.querySelectorAll('.paramaro-senha__botao');
 const campoSenha = document.querySelector('#campo-senha');
 const checkbox = document.querySelector('.checkbox');
+const forcaSenha = document.querySelector ()
 
 
 botoes[0].onclick = diminuirTamanho;
-botoes[1].onclick = aumentarTamanho;
+botoes[1].onclick = aumentaTamanho;
 
 function diminuirTamanho() {
     if (tamanhoSenha > 1) {
@@ -42,11 +43,15 @@ function geraSenha() {
     if (checkbox[0].checked)
         alfabeto = alfabeto + letrasMaisculas;
 
-if (checkbox[1].checked)
+if (checkbox[1].checked){ 
         alfabeto = alfabeto + letrasMinusculas;
-    
-if (checkbox[2].checked)
+ }
+if (checkbox[2].checked){ 
         alfabeto = alfabeto + numeros;
+}
+if (checkbox[3].checked){
+        alfabeto = alfabeto + simbolos;
+ }
 }
 
 
