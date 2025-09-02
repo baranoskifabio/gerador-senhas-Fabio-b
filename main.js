@@ -1,7 +1,10 @@
 const numeroSenha = document.querySelector('.parametro-senha__texto')
 let tamanhoSenha = 12;
 numeroSenha.textContent = tamanhoSenha;
-
+const letrasMaisculas = 'ABCDEFGHIJKLNIEJRE';
+const letrasMinusculas = 'abcdehksfhjddfhkdfk';
+const numeros = '0123456789';
+const simbolos = '%#$&&¨%*#@#%%#$';
 const botoes = document.querySelectorAll('.paramaro-senha__botao');
 
 botoes[0].onclick = diminuirTamanho;
@@ -31,16 +34,19 @@ for (i = 0; i < checkbox.clientHeight; i++) {
     checkbox[i].onclick = geraSenha;
 }
 
-const letrasMaisculas = 'ABCDEFGHIJKLNIEJRE';
-const letrasMinusculas = 'abcdehksfhjddfhkdfk';
-const numeros = '0123456789';
-const simbolos = '%#$&&¨%*#@#%%#$';
+
 geraSenha();
 
 function geraSenha() {
     let alfabeto = '';
     if (checkbox[0].checked)
         alfabeto = alfabeto + letrasMaisculas;
+
+if (checkbox[1].checked)
+        alfabeto = alfabeto + letrasMinusculas;
+    
+if (checkbox[2].checked)
+        alfabeto = alfabeto + numeros;
 }
 
 
