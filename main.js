@@ -80,4 +80,7 @@ forcaSenha.classList.add('media');
 forcaSenha.classList.add('fraca');
 }
 
+const valorEntropia  = document.querySelector('.entropia');
+valorEntropia.textContent = "Um computador pode levar até"
+
 }
